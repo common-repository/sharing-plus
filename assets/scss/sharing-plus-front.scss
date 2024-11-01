@@ -1,0 +1,2971 @@
+@font-face {
+  font-family: 'sharing_plus_icon';
+  src:  url('../fonts/sharing_plus_icon.eot?eahqa2');
+  src:  url('../fonts/sharing_plus_icon.eot?eahqa2#iefix') format('embedded-opentype'),
+    url('../fonts/sharing_plus_icon.ttf?eahqa2') format('truetype'),
+    url('../fonts/sharing_plus_icon.woff?eahqa2') format('woff'),
+    url('../fonts/sharing_plus_icon.svg?eahqa2#sharing_plus_icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+div.sharing_plus_buttons { height: auto; margin: 5px auto 5px -5px; text-align: left; clear: left; font-size: 0; direction: ltr;}
+div.sharing_plus_social_button { float: left; }
+div.sharing-plus-button-googleplus { width: 100px; }
+div.sharing-plus-button-fblike { width: 140px; line-height: 1; }
+div.sharing-plus-button-fbshare { width: 140px; line-height: 1; }
+div.sharing-plus-button-twitter { width: 130px; }
+div.sharing-plus-button-pinterest { width: 100px; }
+.fb-like iframe { max-width: none !important; }
+.sharing_plus_buttons .sharing_plus_social_button { display: inline-block; vertical-align: top; width: auto;float: none; margin: 0 5px 5px;}
+.sharing_plus_buttons .sharing_plus_social_button iframe { margin: 0; vertical-align: inherit; }
+.sharing_plus_buttons button{
+  border:0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+  margin: 5px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: 'Helvetica', Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-weight: normal;
+  text-transform: capitalize !important;
+  white-space: nowrap;
+  text-shadow: none !important;
+  width: auto;
+  letter-spacing: 0;
+  word-spacing: 0;
+  overflow: visible;
+}
+.sharing_plus_buttons button:focus, .sharing_plus_buttons button:hover{
+  outline: none;
+}
+.sharing_plus_buttons button.sharing-plus-social-fb-share:after{
+  content: "\e900";
+}
+.sharing_plus_buttons button.sharing-plus-social-twt-share:after{
+  content: "\e904";
+}
+.sharing_plus_buttons button.sharing-plus-social-gplus-share:after{
+  content: "\e901";
+}
+.sharing_plus_buttons button.sharing-plus-social-whatsapp-share:after{
+  content: "\e906";
+}
+.sharing_plus_buttons button.sharing-plus-social-viber-share:after{
+  content: "\e666";
+}
+.sharing_plus_buttons button.sharing-plus-social-reddit-share:after{
+  content: "\e903";
+}
+.sharing_plus_buttons button.sharing-plus-social-linkedin-share:after{
+  content: "\e907";
+}
+.sharing_plus_buttons button.sharing-plus-social-pinterest-share:after{
+  content: "\e902";
+}
+.sharing_plus_buttons button.sharing-plus-social-msng-share:after{
+  content: "\e908";
+}
+.sharing_plus_buttons button.sharing-plus-social-email-share:after{
+  content: "\e90b";
+}
+.sharing_plus_buttons button.sharing-plus-social-print-share:after{
+  content: "\e90c";
+}
+.sharing_plus_buttons button.sharing-plus-social-tumblr-share:after{
+  content: "\e90d";
+}
+.sharing_plus_total_counter{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1;
+  font-family: 'Verdana';
+  color: #000;
+  text-align: center;
+}
+
+
+.sharing_plus_buttons_inline .sharing_plus_total_counter,.sharing-plus-buttons-flyin .sharing_plus_buttons  .sharing_plus_total_counter,.sharing-plus-buttons-popup .sharing_plus_buttons  .sharing_plus_total_counter,.sharing_plus_social_media_wrapper .sharing_plus_buttons  .sharing_plus_total_counter{
+  display: inline-block;
+  top: -4px;
+  vertical-align: middle;
+  position: relative;
+}
+.sharing_plus_buttons_inline{
+-webkit-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.sharing_plus_total_counter span{
+  font-size: 10px;
+  display: block;
+}
+.sharing_plus_buttons button:after {
+  font-family: 'sharing_plus_icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  left: 0;
+  position: absolute;
+  font-size: 17px;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 3px;
+}
+.sharing_plus_buttons button.sharing-plus-social-viber-share:after{
+  content: "\e905";
+  font-family: 'sharing_plus_icon';
+  }
+  /*=======================================
+  =            Simple Style              =
+  =======================================*/
+  .sharing-plus-social-simple-icons button[class*="sharing_plus_"] {
+        position: relative;
+        padding: 2px;
+        font-size: 11px;
+        line-height: 1.5;
+        border-radius: 3px;
+        vertical-align: middle;
+        text-align: left;
+        color: #fff;
+        padding-left: 20px;
+        height: 20px;
+        border: 0;
+    }
+    .sharing-plus-social-simple-icons button[class*="sharing_plus_"] .icon{
+      height: 12px;
+      line-height: 12px;
+    }
+    .sharing-plus-social-simple-icons.sharing-plus-buttons-float-right-center button{
+      float: right;
+    }
+    div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_counter-activate{
+      width: 116px;
+    }
+    .sharing-plus-social-simple-icons.sharing_plus_buttons button:after{
+      display: none;
+    }
+  /*.sharing-plus-social-simple-icons button {
+      position: relative;
+      padding: 2px;
+      font-size: 11px;
+      line-height: 1.5;
+      border-radius: 3px;
+      vertical-align: middle;
+      text-align: left;
+      color: #fff;
+      padding-left: 20px;
+  }
+  .sharing-plus-social-simple-icons.sharing_plus_buttons button:after{
+    display: none;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-fb-share{
+  background: #4267b2;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 0 0 2px;
+  display: inline-block;
+  }
+  .sharing-plus-social-simple-icons button.sharing-plus-social-fb-share:after{
+    display: none;
+  }
+  .sharing-plus-social-simple-icons .sharing_plus_fbshare_counter{
+    padding-left: 0;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-twt-share{
+    position: relative;
+    height: 20px;
+    box-sizing: border-box;
+    padding: 1px 8px 1px 6px;
+    background-color: #1b95e0;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+  }
+  .sharing-plus-social-simple-icons button span.sharing_plus_twitter_counter{
+    padding-left: 0;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-gplus-share{
+    background: #fff;
+    color: #db4437;
+    border:1px solid rgba(0,0,0,.17);
+    padding: 0px 2px 0px 2px;
+    position: relative;
+    width: 32px;
+    height: 20px;
+    border-radius: 2px;
+    text-align: center;
+  }
+.sharing-plus-social-simple-icons.sharing_plus_counter-activate .sharing-plus-social-gplus-share{
+  margin-right: 34px;
+}
+  .sharing-plus-social-simple-icons .sharing-plus-social-gplus-share:after{
+    position: static;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-gplus-share .simplesocialtxt{
+    display: none;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-whatsapp-share{
+    background: rgb(37, 211, 102);
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-pinterest-share{
+    background: #bd081c;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-viber-share{
+    background: #665cac;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-linkedin-share{
+    background: #0077b5;
+    position: relative;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-linkedin-share span{
+    font-family: 'Arial', Helvetica, sans-serif;
+  }
+.sharing-plus-social-simple-icons.sharing_plus_counter-activate .sharing-plus-social-linkedin-share{
+  margin-right: 34px;
+}
+  .sharing-plus-social-simple-icons .sharing-plus-social-linkedin-share .sharing_plus_counter{
+    padding: 2px 2px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    color: #000;
+    margin-left: 7px;
+    width: 27px;
+    text-align: center;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-linkedin-share .sharing_plus_counter:after, .sharing-plus-social-simple-icons .sharing-plus-social-linkedin-share .sharing_plus_counter:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .sharing-plus-social-simple-icons .sharing-plus-social-linkedin-share .sharing_plus_counter:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #fff;
+    border-width: 5px;
+    margin-top: -5px;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-linkedin-share .sharing_plus_counter:before {
+    border-color: rgba(204, 204, 204, 0);
+    border-right-color: #ccc;
+    border-width: 6px;
+    margin-top: -6px;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-reddit-share{
+    background: #ff4006;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-gplus-share .sharing_plus_counter{
+    padding: 2px 2px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    color: #000;
+    margin-left: 7px;
+    width: 27px;
+    text-align: center;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-gplus-share
+  .sharing-plus-social-simple-icons .sharing-plus-social-gplus-share .sharing_plus_counter:after, .sharing-plus-social-simple-icons .sharing-plus-social-gplus-share .sharing_plus_counter:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .sharing-plus-social-simple-icons .sharing-plus-social-gplus-share .sharing_plus_counter:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-right-color: #fff;
+    border-width: 5px;
+    margin-top: -5px;
+  }
+  .sharing-plus-social-simple-icons .sharing-plus-social-gplus-share .sharing_plus_counter:before {
+    border-color: rgba(204, 204, 204, 0);
+    border-right-color: #ccc;
+    border-width: 6px;
+    margin-top: -6px;
+  }
+  div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons button:after{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons button .sharing_plus_counter{
+    background: #fff;
+    margin:0;
+    color: #ccc;
+    padding: 0;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    z-index:1;
+    border:1px solid #ccc;
+  }
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons .sharing-plus-social-fb-share .sharing_plus_counter{
+  color: #4267b2;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons .sharing-plus-social-twt-share .sharing_plus_counter{
+  color: #4267b2;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons .sharing-plus-social-gplus-share .sharing_plus_counter{
+  color: #db4437;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons .sharing-plus-social-linkedin-share .sharing_plus_counter{
+  color: #4267b2;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons .sharing-plus-social-reddit-share .sharing_plus_counter{
+  color: #ff4006;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons .sharing-plus-social-pinterest-share .sharing_plus_counter{
+  color: #bd081c;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons button .sharing_plus_counter:after,
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons.sharing_plus_buttons button .sharing_plus_counter:before{
+  display: none;
+}*/
+.sharing_plus_buttons .fb_iframe_widget{
+  display: inline-block !important;
+  position: relative;
+  width: initial !important;
+}
+.sharing_plus_buttons .fb_iframe_widget span {
+    display: inline-block !important;
+    position: relative;
+    text-align: justify;
+    width: 61px !important;
+}
+.sharing_plus_buttons .sharing-plus-fb-like{
+  height: 20px !important;
+  line-height: 20px !important;
+  margin: 5px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_fbshare-icon{
+  background: #4267b2;
+  border: 1px solid #4267b2;
+  color: #fff;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-select: none;
+  white-space: nowrap;
+  padding: 0;
+  line-height: 18px;
+  height: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_fbshare-icon:hover {
+    background: #365899;
+    border: 1px solid #365899;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_fbshare-icon .icon{
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+  left: 2px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_fbshare-icon .simplesocialtxt{
+  padding: 0 3px 0 3px;
+  font-weight: bold;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_fbshare-icon .sharing_plus_counter{
+  padding-right: 4px;
+  display: inline-block;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_tweet-icon{
+  position: relative;
+  height: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 1px 8px 1px 6px;
+  background-color: #1b95e0;
+  color: #fff;
+  border-radius: 3px;
+  font-weight: 500;
+  cursor: pointer;
+  font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_tweet-icon:hover{
+  background: #0c7abf;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_tweet-icon .icon{
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  background: transparent 0 0 no-repeat;
+  vertical-align: top;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_tweet-icon .simplesocialtxt {
+    margin-left: 1px;
+    white-space: nowrap;
+    vertical-align: top;
+    font-style: normal;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon{
+  padding: 0;
+  background: none;
+  border:0;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon .icon{
+  border: 1px solid #d5d5d5;
+  border: 1px solid rgba(0,0,0,.17);
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.05);
+  box-shadow: 0 1px 0 rgba(0,0,0,.05);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: background-color .218s,border-color .218s,box-shadow .218s;
+  -webkit-transition: background-color .218s,border-color .218s,-webkit-box-shadow .218s;
+  transition: background-color .218s,border-color .218s,-webkit-box-shadow .218s;
+  transition: background-color .218s,border-color .218s,box-shadow .218s;
+  transition: background-color .218s,border-color .218s,box-shadow .218s,-webkit-box-shadow .218s;
+  -webkit-user-select: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: none;
+  color: #262626;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  height: 20px;
+  line-height: 18px;
+  padding: 0;
+  display: inline-block;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon:active .icon{
+    background-color: #e5e5e5;
+    border: 1px solid #aaa;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-box-shadow: inset 0 1px 0 #ddd;
+    box-shadow: inset 0 1px 0 #ddd;
+    color: #262626;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon:hover .icon{
+    border: 1px solid #aaa;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.1);
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon .sharing_plus_counter{
+  position: relative;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 0 6px;
+  max-width: 53px;
+  min-width: 10px;
+  font-size: 11px;
+  line-height: 18px;
+  color: #666;
+  font-family: Roboto,arial,sans-serif;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon .sharing_plus_counter:after, .sharing-plus-social-simple-icons button.sharing_plus_gplus-icon .sharing_plus_counter:before{
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon .sharing_plus_counter:after{
+    border-color: rgba(255,255,255,0);
+    border-right-color: #fff;
+    border-width: 4px;
+    margin-top: -4px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon .sharing_plus_counter:before{
+    border-color: rgba(192,192,192,0);
+    border-right-color: #ccc;
+    border-width: 5px;
+    margin-top: -5px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon svg{
+  fill: #db4437;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_gplus-icon .simplesocialtxt{
+  display: none;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon{
+  background: none;
+  border:0;
+  padding: 0;
+  height: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon .icon{
+  background-position: 0px -593px;
+  background-repeat: no-repeat;
+  background-color: #0077b5;
+  background-size: initial;
+  cursor: pointer;
+  border: 0;
+  border-right: 1px solid #066094;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: right;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  text-align: center;
+  line-height: 17px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon .icon svg{
+  vertical-align: middle;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon .simplesocialtxt{
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  white-space: nowrap;
+  float: left;
+  margin-left: 1px;
+  vertical-align: top;
+  overflow: hidden;
+  text-align: center;
+  height: 20px;
+  padding: 0 4px 0 23px;
+  border: 1px solid #000;
+  border-top-color: #0077b5;
+  border-right-color: #0077b5;
+  border-bottom-color: #0077b5;
+  border-left-color: #0077b5;
+  text-shadow: 0 -1px #005887;
+  line-height: 20px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  background-color: #0077b5;
+  background-image: -webkit-linear-gradient(top, #0077b5 0%, #0077b5 100%);
+  font: bold 11px Arial, Helvetica, sans-serif;
+  line-height: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon:hover .simplesocialtxt{
+  color: #fff;
+  border: 1px solid #000;
+  border-top-color: #066094;
+  border-right-color: #066094;
+  border-bottom-color: #066094;
+  border-left-color: #066094;
+  background-color: #066094;
+  background-image: -webkit-linear-gradient(top, #066094 0%, #066094 100%);
+}
+.sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon .sharing_plus_counter{
+  display: inline-block;
+  font-size: 11px;
+  color: #4e4e4e;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  line-height: 18px;
+  padding: 0 7px 0 7px;
+  background: #fff;
+  border: 1px solid #caccce;
+  margin-left: 8px;
+  border-radius: 5px;
+  position: relative;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon .sharing_plus_counter:after, .sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon .sharing_plus_counter:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon .sharing_plus_counter:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-right-color: #fff;
+  border-width: 3px;
+  margin-top: -3px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_linkedin-icon .sharing_plus_counter:before {
+  border-color: rgba(202, 204, 206, 0);
+  border-right-color: #caccce;
+  border-width: 4px;
+  margin-top: -4px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_pinterest-icon{
+  padding: 0;
+  background: none;
+  position: relative;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_pinterest-icon .simplesocialtxt{
+  border-radius: 2px;
+  text-indent: 20px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font:bold 11px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #bd081c;
+  background-size: 14px 14px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_pinterest-icon:hover .simplesocialtxt{
+  background-color: #aa0719;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #fff;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_pinterest-icon .icon{
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_pinterest-icon .icon svg{
+  width: 14px;
+  height: 14px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_pinterest-icon .sharing_plus_counter{
+  height: 20px;
+  width: 40px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 20px;
+  color: #555;
+  background: #efefef;
+  border-radius: 2px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  position: relative;
+  margin-left: 6px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_pinterest-icon .sharing_plus_counter:before{
+  top: 3px;
+  left: -4px;
+  border-right: 7px solid #efefef;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  position: absolute;
+  content: '';
+}
+.sharing-plus-social-simple-icons button.sharing_plus_viber-icon{
+  border-radius: 2px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font:bold 11px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #665cac;
+  background-size: 14px 14px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  height: 20px;
+  text-indent: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_viber-icon:hover{
+  background: #524a8c;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_viber-icon .icon{
+  text-indent: 0;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_viber-icon .icon svg{
+  width: 14px;
+  fill: #fff;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_whatsapp-icon{
+  border-radius: 2px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font:bold 11px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #34AF23;
+  background-size: 14px 14px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  height: 20px;
+  text-indent: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_whatsapp-icon:hover{
+  background: #2b8e1e;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_tumblr-icon{
+  border-radius: 2px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font:bold 12px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #36465d;
+  background-size: 14px 14px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  height: 20px;
+  text-indent: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_tumblr-icon:hover{
+  background: #36465d;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_tumblr-icon .icon{
+  text-indent: 0;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_tumblr-icon .icon svg{
+  width: 9px;
+  fill: #fff;
+  height: 12px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_whatsapp-icon .icon{
+  text-indent: 0;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_whatsapp-icon .icon svg{
+  width: 14px;
+  fill: #fff;
+  height: 14px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_reddit-icon{
+  border-radius: 2px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font:bold 11px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #ff4500;
+  background-size: 14px 14px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  height: 20px;
+  text-indent: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_reddit-icon:hover{
+  background: #d33c04;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_reddit-icon .icon{
+  text-indent: 0;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_reddit-icon .icon svg{
+  width: 14px;
+  fill: #fff;
+  height: 14px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_msng-icon{
+  border-radius: 2px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font:bold 11px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #468bff;
+  background-size: 14px 14px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  height: 20px;
+  text-indent: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_msng-icon:hover{
+  background: #307bf9;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_msng-icon .icon{
+  text-indent: 0;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_msng-icon .icon svg{
+  width: 14px;
+  fill: #fff;
+  height: 14px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_email-icon{
+  border-radius: 2px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font:bold 11px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #878787;
+  background-size: 14px 14px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  height: 20px;
+  text-indent: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_email-icon:hover{
+  background: #717070;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_email-icon .icon{
+  text-indent: 0;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_email-icon .icon svg{
+  width: 14px;
+  fill: #fff;
+  height: 14px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_print-icon{
+  border-radius: 2px;
+  width: auto;
+  padding: 0 4px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font:bold 11px/20px "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+  background: #353535;
+  background-size: 14px 14px;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  height: 20px;
+  text-indent: 20px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_print-icon:hover{
+  background: #1b1a1a;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_print-icon .icon{
+  text-indent: 0;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.sharing-plus-social-simple-icons button.sharing_plus_print-icon .icon svg{
+  width: 14px;
+  fill: #fff;
+  height: 14px;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-icons{
+  width: 82px;
+  text-align: left;
+}
+div[class*="sharing-plus-buttons-float-right"].sharing-plus-social-simple-icons{
+  width: 104px;
+}
+div[class*="sharing-plus-buttons-float-right"].sharing-plus-social-simple-icons {
+  width: 100px;
+}
+div[class*="sharing-plus-buttons-float-right"] .sharing_plus_total_counter{
+  display: block;
+  clear: both;
+  text-align: right;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-simple-icons .sharing-plus-fb-like{
+  margin:5px;
+}
+  /*========================================
+  =         Code For Simple Style          =
+  ========================================*/
+/*=======================================
+=            Gredient Button            =
+=======================================*/
+.sharing_plus_buttons.sharing-plus-social-sm-round button{
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(222, 222, 222);
+  border-radius: 4px;
+  background-image: -moz-linear-gradient(-90deg, rgb(255, 255, 255) 0%, rgb(221, 221, 221) 100%);
+  background-image: -webkit-linear-gradient(-90deg, rgb(255, 255, 255) 0%, rgb(221, 221, 221) 100%);
+  background-image: -ms-linear-gradient(-90deg, rgb(255, 255, 255) 0%, rgb(221, 221, 221) 100%);
+  height: 38px;
+  line-height: 26px;
+  padding: 4px 15px 4px 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 38px;
+  position: relative;
+  -webkit-transition:all 0.2s ease-in-out;
+  transition:all 0.2s ease-in-out;
+  margin: 5px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button:hover{
+  background-image: -moz-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(221, 221, 221) 100%);
+  background-image: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(221, 221, 221) 100%);
+  background-image: -ms-linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(221, 221, 221) 100%);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-fb-share{
+  color: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-twt-share{
+  color: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-gplus-share{
+  color: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-whatsapp-share{
+  color: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-viber-share{
+  color: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-reddit-share{
+  color: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-linkedin-share{
+  color: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-pinterest-share{
+  color: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-msng-share{
+  color: #468bff;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-email-share{
+  color: #878787;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-print-share{
+  color: #353535;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-tumblr-share{
+  color: #36465d;
+}
+
+/*=====  End of Gredient Button  ======*/
+/*========================================
+=            Code For Style 2            =
+========================================*/
+
+
+.sharing_plus_buttons.sharing-plus-social-simple-round button {
+  height: 38px;
+  line-height: 30px;
+  padding: 4px 15px 4px 48px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+  color: #fff;
+  margin:5px;
+  border-radius: 3px;
+  /*width: 38px;*/
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button:hover{
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button:before {
+  content: '';
+  left: 0;
+  position: absolute;
+  font-size: 17px;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button span{
+  position: relative;
+  z-index: 1;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button:hover:before{
+  width: 100%;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-fb-share{
+  background: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-twt-share{
+  background: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-gplus-share{
+  background: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-whatsapp-share{
+  background: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-viber-share{
+  background: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-reddit-share{
+  background: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-linkedin-share{
+  background: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-pinterest-share{
+  background: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-msng-share{
+  background: #468bff;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-email-share{
+  background: #878787;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-print-share{
+  background: #353535;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-tumblr-share{
+  background: #36465d;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-fb-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-fb-share:before {
+  background: #354e83;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-twt-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-twt-share:before {
+  background: #1889cf;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-gplus-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-gplus-share:before {
+  background: #bb372b;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-viber-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-viber-share:before {
+  background: #3e115d;
+}
+
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-whatsapp-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-whatsapp-share:before {
+  background: #176e0b;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-reddit-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-reddit-share:before {
+  background: #ce3b04;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-linkedin-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-linkedin-share:before {
+  background: #044568;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-pinterest-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-pinterest-share:before {
+  background: #af040a;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-msng-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-msng-share:before {
+  background: #3c7be6;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-tumblr-share:after, .sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-tumlbr-share:before {
+  background: #36465d;
+}
+
+
+/*=====  End of Code For Style 2  ======*/
+
+/*========================================
+=            Code for style 3            =
+========================================*/
+
+.sharing_plus_buttons.sharing-plus-social-round-txt button{
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  border-radius: 19px;
+  height: 38px;
+  line-height: 26px;
+  padding: 5px 15px 5px 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 38px;
+  position: relative;
+  background: #fff;
+  -webkit-transition:all 0.2s ease-in-out;
+  transition:all 0.2s ease-in-out;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button:hover{
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-fb-share{
+  color: #43609c;
+  border-color: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-fb-share:hover{
+  background: #43609c;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-twt-share{
+  color: #1da1f2;
+  border-color: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-twt-share:hover{
+  background: #1da1f2;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-whatsapp-share{
+  color: #34AF23;
+  border-color: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-whatsapp-share:hover{
+  background: #34AF23;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-viber-share{
+  color: #59267c;
+  border-color: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-viber-share:hover{
+  background: #59267c;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-reddit-share{
+  color: #ff4500;
+  border-color: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-reddit-share:hover{
+  background: #ff4500;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-linkedin-share{
+  color: #0077B5;
+  border-color: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-linkedin-share:hover{
+  background: #0077B5;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-pinterest-share{
+  color: #C92228;
+  border-color: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-pinterest-share:hover{
+  background: #C92228;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-gplus-share{
+  color: #db4437;
+  border-color: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-gplus-share:hover{
+  background: #db4437;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-msng-share{
+  color: #468bff;
+  border-color: #468bff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-msng-share:hover{
+  background: #468bff;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-email-share{
+  color: #717070;
+  border-color: #717070;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-email-share:hover{
+  background: #717070;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-print-share{
+  color: #353535;
+  border-color: #353535;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-print-share:hover{
+  background: #353535;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-tumblr-share{
+  color: #36465d;
+  border-color: #36465d;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-tumblr-share:hover{
+  background: #36465d;
+  color: #fff;
+}
+
+/*=====  End of Code for style 3  ======*/
+/*===============================
+=            style 4            =
+===============================*/
+
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button {
+  border-radius: 3px;
+  height: 38px;
+  line-height: 26px;
+  padding: 5px 15px 5px 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 38px;
+  position: relative;
+  background: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-fb-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #43609c, 0px 2px 0px 0px #43609c, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 0px 0px 0px #43609c, 0px 2px 0px 0px #43609c, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-fb-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #43609c, 0px 2px 0px 0px #43609c, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -40px 0px 0px #43609c, 0px 2px 0px 0px #43609c, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-twt-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #1da1f2, 0px 2px 0px 0px #1da1f2, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 0px 0px 0px #1da1f2, 0px 2px 0px 0px #1da1f2, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-twt-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #1da1f2, 0px 2px 0px 0px #1da1f2, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -40px 0px 0px #1da1f2, 0px 2px 0px 0px #1da1f2, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-gplus-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #db4437, 0px 2px 0px 0px #db4437, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 0px 0px 0px #db4437, 0px 2px 0px 0px #db4437, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-gplus-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #db4437, 0px 2px 0px 0px #db4437, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -40px 0px 0px #db4437, 0px 2px 0px 0px #db4437, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-whatsapp-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #34AF23, 0px 2px 0px 0px #34AF23, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 0px 0px 0px #34AF23, 0px 2px 0px 0px #34AF23, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-whatsapp-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #34AF23, 0px 2px 0px 0px #34AF23, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -40px 0px 0px #34AF23, 0px 2px 0px 0px #34AF23, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-viber-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #59267c, 0px 2px 0px 0px #59267c, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 0px 0px 0px #59267c, 0px 2px 0px 0px #59267c, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-viber-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #59267c, 0px 2px 0px 0px #59267c, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -40px 0px 0px #59267c, 0px 2px 0px 0px #59267c, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-reddit-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #ff4500, 0px 2px 0px 0px #ff4500, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 0px 0px 0px #ff4500, 0px 2px 0px 0px #ff4500, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-reddit-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #ff4500, 0px 2px 0px 0px #ff4500, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -40px 0px 0px #ff4500, 0px 2px 0px 0px #ff4500, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-linkedin-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #0077B5, 0px 2px 0px 0px #0077B5, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 0px 0px 0px #0077B5, 0px 2px 0px 0px #0077B5, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-linkedin-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #0077B5, 0px 2px 0px 0px #0077B5, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -40px 0px 0px #0077B5, 0px 2px 0px 0px #0077B5, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-pinterest-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #C92228, 0px 2px 0px 0px #C92228, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px 0px 0px 0px #C92228, 0px 2px 0px 0px #C92228, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-pinterest-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #C92228, 0px 2px 0px 0px #C92228, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+          box-shadow: inset 0px -40px 0px 0px #C92228, 0px 2px 0px 0px #C92228, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-msng-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #468bff, 0px 2px 0px 0px #468bff, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0px 0px 0px 0px #468bff, 0px 2px 0px 0px #468bff, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #468bff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-tumblr-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #36465d, 0px 2px 0px 0px #36465d, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0px 0px 0px 0px #36465d, 0px 2px 0px 0px #36465d, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #36465d;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-msng-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #468bff, 0px 2px 0px 0px #468bff, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0px -40px 0px 0px #468bff, 0px 2px 0px 0px #468bff, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-email-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #717070, 0px 2px 0px 0px #717070, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0px 0px 0px 0px #717070, 0px 2px 0px 0px #717070, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #717070;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-email-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #717070, 0px 2px 0px 0px #717070, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0px -40px 0px 0px #717070, 0px 2px 0px 0px #717070, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-print-share {
+  -webkit-box-shadow: inset 0px 0px 0px 0px #353535, 0px 2px 0px 0px #353535, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0px 0px 0px 0px #353535, 0px 2px 0px 0px #353535, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #717070;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-print-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #353535, 0px 2px 0px 0px #353535, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0px -40px 0px 0px #353535, 0px 2px 0px 0px #353535, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-tumblr-share:hover{
+  -webkit-box-shadow: inset 0px -40px 0px 0px #36465d, 0px 2px 0px 0px #36465d, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  box-shadow: inset 0px -40px 0px 0px #36465d, 0px 2px 0px 0px #36465d, 0px 0px 5px 0px rgba(0, 0, 0, 0.13);
+  color: #fff;
+}
+/*=====  End of style 4  ======*/
+
+/*========================================
+=            Code for style 5            =
+========================================*/
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button {
+  border-radius: 0;
+  height: 38px;
+  line-height: 26px;
+  padding: 5px 15px 5px 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 38px;
+  position: relative;
+  color: #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button:hover{
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-fb-share {
+  background: #43609c;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #354e83, 0px 3px 0px 0px #354e83;
+          box-shadow: inset 0px 0px 0px 0px #354e83, 0px 3px 0px 0px #354e83;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-fb-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #354e83, 0px 3px 0px 0px #354e83;
+          box-shadow: inset 0px -40px 0px 0px #354e83, 0px 3px 0px 0px #354e83;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-twt-share {
+  background: #1da1f2;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #1889cf, 0px 3px 0px 0px #1889cf;
+          box-shadow: inset 0px 0px 0px 0px #1889cf, 0px 3px 0px 0px #1889cf;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-twt-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #1889cf, 0px 3px 0px 0px #1889cf;
+          box-shadow: inset 0px -40px 0px 0px #1889cf, 0px 3px 0px 0px #1889cf;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-gplus-share {
+  background: #db4437;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #bb372b, 0px 3px 0px 0px #bb372b;
+          box-shadow: inset 0px 0px 0px 0px #bb372b, 0px 3px 0px 0px #bb372b;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-gplus-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #bb372b, 0px 3px 0px 0px #bb372b;
+          box-shadow: inset 0px -40px 0px 0px #bb372b, 0px 3px 0px 0px #bb372b;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-whatsapp-share {
+  background: #34AF23;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #176e0b, 0px 3px 0px 0px #176e0b;
+          box-shadow: inset 0px 0px 0px 0px #176e0b, 0px 3px 0px 0px #176e0b;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-whatsapp-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #176e0b, 0px 3px 0px 0px #176e0b;
+          box-shadow: inset 0px -40px 0px 0px #176e0b, 0px 3px 0px 0px #176e0b;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-viber-share {
+  background: #59267c;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #3e115d, 0px 3px 0px 0px #3e115d;
+          box-shadow: inset 0px 0px 0px 0px #3e115d, 0px 3px 0px 0px #3e115d;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-viber-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #3e115d, 0px 3px 0px 0px #3e115d;
+          box-shadow: inset 0px -40px 0px 0px #3e115d, 0px 3px 0px 0px #3e115d;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-reddit-share {
+  background: #ff4500;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #ce3b04, 0px 3px 0px 0px #ce3b04;
+          box-shadow: inset 0px 0px 0px 0px #ce3b04, 0px 3px 0px 0px #ce3b04;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-reddit-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #ce3b04, 0px 3px 0px 0px #ce3b04;
+          box-shadow: inset 0px -40px 0px 0px #ce3b04, 0px 3px 0px 0px #ce3b04;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-linkedin-share {
+  background: #0077B5;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #044568, 0px 3px 0px 0px #044568;
+          box-shadow: inset 0px 0px 0px 0px #044568, 0px 3px 0px 0px #044568;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-linkedin-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #044568, 0px 3px 0px 0px #044568;
+          box-shadow: inset 0px -40px 0px 0px #044568, 0px 3px 0px 0px #044568;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-pinterest-share {
+  background: #C92228;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #af040a, 0px 3px 0px 0px #af040a;
+          box-shadow: inset 0px 0px 0px 0px #af040a, 0px 3px 0px 0px #af040a;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-pinterest-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #af040a, 0px 3px 0px 0px #af040a;
+          box-shadow: inset 0px -40px 0px 0px #af040a, 0px 3px 0px 0px #af040a;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-msng-share {
+  background: #468bff;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #468bff, 0px 3px 0px 0px #468bff;
+  box-shadow: inset 0px 0px 0px 0px #468bff, 0px 3px 0px 0px #26519e;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-msng-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #26519e, 0px 3px 0px 0px #26519e;
+  box-shadow: inset 0px -40px 0px 0px #26519e, 0px 3px 0px 0px #26519e;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-email-share {
+  background: #717070;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #717070, 0px 3px 0px 0px #717070;
+  box-shadow: inset 0px 0px 0px 0px #717070, 0px 3px 0px 0px #4e4f52;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-email-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #4e4f52, 0px 3px 0px 0px #4e4f52;
+  box-shadow: inset 0px -40px 0px 0px #4e4f52, 0px 3px 0px 0px #4e4f52;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-print-share {
+  background: #353535;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #353535, 0px 3px 0px 0px #353535;
+  box-shadow: inset 0px 0px 0px 0px #353535, 0px 3px 0px 0px #1b1a1a;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-print-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #1b1a1a, 0px 3px 0px 0px #1b1a1a;
+  box-shadow: inset 0px -40px 0px 0px #1b1a1a, 0px 3px 0px 0px #1b1a1a;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-tumblr-share {
+  background: #36465d;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #36465d, 0px 3px 0px 0px #36465d;
+  box-shadow: inset 0px 0px 0px 0px #36465d, 0px 3px 0px 0px #253141;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-tumblr-share:hover {
+  -webkit-box-shadow: inset 0px -40px 0px 0px #253141, 0px 3px 0px 0px #253141;
+  box-shadow: inset 0px -40px 0px 0px #253141, 0px 3px 0px 0px #253141;
+}
+/*=====  End of Code for style 5  ======*/
+
+
+/*===============================
+=            Style 6            =
+===============================*/
+
+.sharing_plus_buttons.sharing-plus-social-round-icon button{
+  border-style: solid;
+  border-width: 2px;
+  border-color: transparent;
+  border-radius: 19px;
+  height: 38px;
+  line-height: 26px;
+  padding: 5px 0 5px 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 34px;
+  position: relative;
+  background: #fff;
+  -webkit-transition:all 0.2s ease-in-out;
+  transition:all 0.2s ease-in-out;
+  vertical-align: top;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button:hover{
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button .sharing_plus_counter{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  color: #000;
+  text-align: center;
+  line-height: 1.2;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button span.simplesocialtxt{
+  display: none;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-fb-share{
+  color: #43609c;
+  border-color: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-fb-share:hover{
+  background: #43609c;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-twt-share{
+  color: #1da1f2;
+  border-color: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-twt-share:hover{
+  background: #1da1f2;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-whatsapp-share{
+  color: #34AF23;
+  border-color: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-whatsapp-share:hover{
+  background: #34AF23;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-viber-share{
+  color: #59267c;
+  border-color: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-viber-share:hover{
+  background: #59267c;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-reddit-share{
+  color: #ff4500;
+  border-color: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-reddit-share:hover{
+  background: #ff4500;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-linkedin-share{
+  color: #0077B5;
+  border-color: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-linkedin-share:hover{
+  background: #0077B5;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-pinterest-share{
+  color: #C92228;
+  border-color: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-pinterest-share:hover{
+  background: #C92228;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-gplus-share{
+  color: #db4437;
+  border-color: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-gplus-share:hover{
+  background: #db4437;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-print-share{
+  color: #353535;
+  border-color: #353535;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-print-share:hover{
+  background: #717070;
+  color: #fff;
+}
+
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-msng-share{
+  color: #468bff;
+  border-color: #468bff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-msng-share:hover{
+  color:#fff;
+  background: #468bff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-email-share{
+  color: #717070;
+  border-color: #717070;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-email-share:hover{
+  background: #717070;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button:after{
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-tumblr-share{
+  color: #36465d;
+  border-color: #36465d;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-tumblr-share:hover{
+  background: #36465d;
+  color: #fff;
+}
+.sharing_plus_buttons.sharing-plus-social-tumblr-icon button:after{
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+}
+/*=====  End of Style 6  ======*/
+
+.sharing-plus-buttons-inline-bottom-in button{
+  -webkit-transform: translateY(40px);
+  transform: translateY(40px);
+  opacity: 0;
+}
+.sharing-plus-buttons-inline-bottom-in.sharing-plus-buttons-inline-in button{
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
+  opacity: 1;
+}
+.sharing-plus-buttons-inline-left-in button{
+  -webkit-transform: translateX(-40px);
+  transform: translateX(-40px);
+  opacity: 0;
+}
+.sharing-plus-buttons-inline-left-in.sharing-plus-buttons-inline-in button{
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  opacity: 1;
+}
+.sharing-plus-buttons-inline-right-in button{
+  -webkit-transform: translateX(40px);
+  transform: translateX(40px);
+  opacity: 0;
+}
+.sharing-plus-buttons-inline-right-in.sharing-plus-buttons-inline-in button{
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  opacity: 1;
+}
+.sharing-plus-buttons-inline-top-in button, .sharing-plus-buttons-inline-top-in .sharing_plus_total_counter{
+   opacity: 0;
+}
+.sharing-plus-buttons-inline-top-in.sharing-plus-buttons-inline-in button, .sharing-plus-buttons-inline-top-in.sharing-plus-buttons-inline-in .sharing_plus_total_counter{
+
+  animation-name: sharing_plus_slidetop;
+   -webkit-animation-name: sharing_plus_slidetop;
+   -moz-animation-name: sharing_plus_slidetop;
+   animation-duration: .3s;
+   -webkit-animation-duration: .3s;
+   -moz-animation-duration: .3s;
+   animation-timing-function: ease;
+   -webkit-animation-timing-function: ease;
+   -moz-animation-timing-function: ease;
+   -webkit-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
+}
+@keyframes sharing_plus_slidetop {
+   0% {
+       -webkit-transform: translateY(-40px);
+               transform: translateY(-40px);
+       opacity: 0;
+   }
+   100% {
+       -webkit-transform: translateY(0);
+               transform: translateY(0);
+       opacity: 1;
+   }
+}
+@-webkit-keyframes sharing_plus_slidetop {
+   0% {
+       -webkit-transform: translateY(-40px);
+       opacity: 0;
+   }
+   100% {
+       -webkit-transform: translateY(0);
+       opacity: 1;
+   }
+}
+.sharing-plus-buttons-inline-fade-in button{
+  opacity: 0;
+}
+.sharing-plus-buttons-inline-fade-in.sharing-plus-buttons-inline-in button{
+  opacity: 1;
+}
+.sharing_plus_buttons_inline button:nth-child(2),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(2){
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+.sharing_plus_buttons_inline button:nth-child(3),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(3){
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+.sharing_plus_buttons_inline button:nth-child(4),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(4){
+ -webkit-animation-delay: 0.6s;
+         animation-delay: 0.6s;
+}
+.sharing_plus_buttons_inline button:nth-child(5),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(5){
+ -webkit-animation-delay: 0.8s;
+         animation-delay: 0.8s;
+}
+.sharing_plus_buttons_inline button:nth-child(6),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(6){
+ -webkit-animation-delay: 1s;
+         animation-delay: 1s;
+}
+.sharing_plus_buttons_inline button:nth-child(7),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(7){
+ -webkit-animation-delay: 1.2s;
+         animation-delay: 1.2s;
+}
+.sharing_plus_buttons_inline button:nth-child(8),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(8){
+ -webkit-animation-delay: 1.4s;
+         animation-delay: 1.4s;
+}
+.sharing_plus_buttons_inline button:nth-child(9),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(9){
+ -webkit-animation-delay: 1.6s;
+         animation-delay: 1.6s;
+}
+.sharing_plus_buttons_inline button:nth-child(10),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(10){
+ -webkit-animation-delay: 1.8s;
+         animation-delay: 1.8s;
+}
+.sharing_plus_buttons_inline button:nth-child(11),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(11){
+ -webkit-animation-delay: 2s;
+         animation-delay: 2s;
+}
+.sharing_plus_buttons_inline button:nth-child(12),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(12){
+ -webkit-animation-delay: 2.2s;
+         animation-delay: 2.2s;
+}
+.sharing_plus_buttons_inline button:nth-child(13),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(13){
+ -webkit-animation-delay: 2.4s;
+         animation-delay: 2.4s;
+}
+.sharing_plus_buttons_inline button:nth-child(14),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(14){
+ -webkit-animation-delay: 2.6s;
+         animation-delay: 2.6s;
+}
+.sharing_plus_buttons_inline button:nth-child(15),.sharing_plus_buttons_inline .sharing_plus_total_counter:nth-child(15){
+ -webkit-animation-delay: 2.8s;
+         animation-delay: 2.8s;
+}
+
+
+
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-fb-share:not(:hover):before,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-twt-share:not(:hover):before,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-gplus-share:not(:hover):before,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-whatsapp-share:not(:hover):before,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-viber-share:not(:hover):before,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-reddit-share:not(:hover):before,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-linkedin-share:not(:hover):before,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-pinterest-share:not(:hover):before
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-email-share:not(:hover):before,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-print-share:not(:hover):before{
+  background: rgba(0,0,0, .2);
+  width: 36px;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-msng-share:not(:hover):before{
+  background: rgba(0,0,0, .2);
+  width: 36px;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-fb-share:after,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-twt-share:after,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-gplus-share:after,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-whatsapp-share:after,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-viber-share:after,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-reddit-share:after,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-linkedin-share:after,
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-pinterest-share:after{
+  background: none;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-msng-share:after{
+  background: none;
+}
+.sharing_plus_hidden{
+  display: none !important;
+}
+.sharing-plus-social-round-txt .sharing_plus_counter {
+  padding: 0px 3px;
+      position: absolute;
+      top: -9px;
+      right: 10px;
+      font-size: 11px;
+      color: #fff;
+      border-radius: 5px;
+      min-width: 24px;
+      text-align: center;
+      line-height: normal;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      overflow: hidden;
+      font-family: 'Helvetica', Arial, sans-serif;
+      line-height: 14px;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-fb-share .sharing_plus_counter{
+  background: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-twt-share .sharing_plus_counter{
+  background: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  background: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-viber-share .sharing_plus_counter{
+  background: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  background: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  background: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  background: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  background: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button.sharing-plus-social-tumblr-share .sharing_plus_counter{
+  background: #36465d;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round.sharing_plus_counter-activate button:not(.sharing-plus-social-viber-share):not(.sharing-plus-social-whatsapp-share):not(.sharing-plus-social-msng-share):not(.sharing-plus-social-email-share):not(.sharing-plus-social-print-share){
+  padding-right: 50px;
+  position: relative;
+}
+.sharing_plus_buttons.sharing-plus-social-sm-round .sharing_plus_counter{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 34px;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  background-image: -webkit-linear-gradient(left, rgb(255,255,255) 0%, rgb(221,221,221) 100%);
+  background-image: -o-linear-gradient(left, rgb(255,255,255) 0%, rgb(221,221,221) 100%);
+  background-image: linear-gradient(to right, rgb(255,255,255) 0%, rgb(221,221,221) 100%);
+  border-left: 1px solid #dedede;
+  border-radius: 0 3px 3px 0;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round.sharing_plus_counter-activate button:not(.sharing-plus-social-viber-share):not(.sharing-plus-social-whatsapp-share):not(.sharing-plus-social-msng-share):not(.sharing-plus-social-email-share):not(.sharing-plus-social-print-share){
+  padding-right: 50px;
+  position: relative;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round.sharing_plus_counter-activate .sharing_plus_counter{
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 34px;
+  text-align: center;
+  height: 36px;
+  line-height: 36px;
+  background: #fff;
+  border-radius: 0 3px 3px 0;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-fb-share .sharing_plus_counter{
+  color: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-twt-share .sharing_plus_counter{
+  color: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  color: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-viber-share .sharing_plus_counter{
+  color: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  color: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  color: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  color: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  color: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-tumblr-share .sharing_plus_counter{
+  color: #36465d;
+}
+/*.sharing_plus_buttons.sharing-plus-social-flat-button-border.sharing_plus_counter-activate a.testaadfadf{
+  padding-right: 50px;
+  position: relative;
+
+}*/
+.sharing_plus_buttons.sharing-plus-social-flat-button-border.sharing_plus_counter-activate .sharing_plus_counter{
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 34px;
+  text-align: center;
+  height: 39px;
+  line-height: 39px;
+  background: #fff;
+  border-radius: 0;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-fb-share .sharing_plus_counter{
+  color: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-twt-share .sharing_plus_counter{
+  color: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  color: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-viber-share .sharing_plus_counter{
+  color: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  color: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  color: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  color: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  color: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border.sharing_plus_counter-activate button:not(.sharing-plus-social-whatsapp-share):not(.sharing-plus-social-viber-share):not(.sharing-plus-social-msng-share):not(.sharing-plus-social-email-share):not(.sharing-plus-social-print-share){
+  padding-right: 50px;
+  position: relative;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border.sharing_plus_counter-activate .sharing_plus_counter{
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  width: 34px;
+  text-align: center;
+  height: 39px;
+  line-height: 39px;
+  background: #fff;
+  border-radius: 0;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-fb-share .sharing_plus_counter{
+  color: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-twt-share .sharing_plus_counter{
+  color: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  color: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-viber-share .sharing_plus_counter{
+  color: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  color: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  color: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  color: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  color: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-tumblr-share .sharing_plus_counter{
+  color: #36465d;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border.sharing_plus_counter-activate button:not(.sharing-plus-social-viber-share):not(.sharing-plus-social-whatsapp-share):not(.sharing-plus-social-msng-share):not(.sharing-plus-social-email-share):not(.sharing-plus-social-print-share){
+  padding-right: 60px;
+  position: relative;
+}
+.sharing-plus-social-round-btm-border .sharing_plus_counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 11px;
+  color: #fff;
+  line-height: 1;
+  border-radius: 3px;
+  height: 40px;
+  line-height: 40px;
+  width: 40px;
+  text-align: center;
+}
+.sharing-plus-social-round-btm-border .sharing_plus_counter:after {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #88b7d5;
+  border-width: 8px;
+  margin-top: -8px;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-fb-share .sharing_plus_counter{
+  background: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-fb-share .sharing_plus_counter:after{
+  border-right-color: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-twt-share .sharing_plus_counter{
+  background: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-twt-share .sharing_plus_counter:after{
+  border-right-color: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  background: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-whatsapp-share .sharing_plus_counter:after{
+  border-right-color: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-viber-share .sharing_plus_counter{
+  background: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-viber-share .sharing_plus_counter:after{
+  border-right-color: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  background: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-reddit-share .sharing_plus_counter:after{
+  border-right-color: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  background: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-linkedin-share .sharing_plus_counter:after{
+  border-right-color: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  background: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-pinterest-share .sharing_plus_counter:after{
+  border-right-color: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  background: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-gplus-share .sharing_plus_counter:after{
+  border-right-color: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-tumblr-share .sharing_plus_counter{
+  background: #36465d;
+}
+.sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-tumblr-share .sharing_plus_counter:after{
+  border-right-color: #36465d;
+}
+.sharing_plus_counter{
+  font-family: 'Helvetica', Arial, sans-serif;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button .sharing_plus_counter {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  font-size: 10px;
+  color: #fff;
+  height: 17px;
+  line-height: 12px;
+  width: 17px;
+  border:1px solid transparent;
+  left: auto;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  line-height: 15px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-fb-share .sharing_plus_counter{
+  border-color: #43609c;
+  background: #43609c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-twt-share .sharing_plus_counter{
+  border-color: #1da1f2;
+  background: #1da1f2;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  border-color: #34AF23;
+  background: #34AF23;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-viber-share .sharing_plus_counter{
+  border-color: #59267c;
+  background: #59267c;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  border-color: #ff4500;
+  background: #ff4500;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  border-color: #0077B5;
+  background: #0077B5;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  border-color: #C92228;
+  background: #C92228;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  border-color: #db4437;
+  background: #db4437;
+}
+.sharing_plus_buttons.sharing-plus-social-round-icon button.sharing-plus-social-tumblr-share .sharing_plus_counter{
+  border-color: #36465d;
+  background: #36465d;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-fb-share .sharing_plus_counter{
+  border-color: #43609c;
+  color: #ffffff;
+  background: #43609c;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-twt-share .sharing_plus_counter{
+  border-color: #1da1f2;
+  color: #ffffff;
+  background: #1da1f2;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  border-color: #34AF23;
+  color: #ffffff;
+  background: #34AF23;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-viber-share .sharing_plus_counter{
+  border-color: #59267c;
+  color: #ffffff;
+  background: #59267c;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  border-color: #ff4500;
+  color: #ffffff;
+  background: #ff4500;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  border-color: #0077B5;
+  color: #ffffff;
+  background: #0077B5;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  border-color: #C92228;
+  color: #ffffff;
+  background: #C92228;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-round-btm-border button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  border-color: #db4437;
+  color: #ffffff;
+  background: #db4437;
+}
+div.sharing_plus_buttons.sharing-plus-buttons-float-right-center:not(.sharing-plus-social-simple-icons)  button .sharing_plus_counter{
+  left: -10px;
+  font-size: 10px;
+}
+
+.sharing-plus-buttons-float-right-center  button .sharing_plus_counter:after{
+  display: none;
+}
+
+
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-fb-share .sharing_plus_counter{
+  border-color: #43609c;
+  color: #ffffff;
+  background: #43609c;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-twt-share .sharing_plus_counter{
+  border-color: #1da1f2;
+  color: #ffffff;
+  background: #1da1f2;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  border-color: #34AF23;
+  color: #ffffff;
+  background: #34AF23;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-viber-share .sharing_plus_counter{
+  border-color: #59267c;
+  color: #ffffff;
+  background: #59267c;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  border-color: #ff4500;
+  color: #ffffff;
+  background: #ff4500;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  border-color: #0077B5;
+  color: #ffffff;
+  background: #0077B5;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  border-color: #C92228;
+  color: #ffffff;
+  background: #C92228;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-sm-round button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  border-color: #db4437;
+  color: #ffffff;
+  background: #db4437;
+}
+
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-fb-share .sharing_plus_counter{
+  background: #ffffff;
+  border:1px solid #43609c;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-twt-share .sharing_plus_counter{
+  background: #ffffff;
+  border:1px solid #1da1f2;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  background: #ffffff;
+  border:1px solid #34AF23;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-viber-share .sharing_plus_counter{
+  background: #ffffff;
+  border:1px solid #59267c;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  background: #ffffff;
+  border:1px solid #ff4500;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  background: #ffffff;
+  border:1px solid #0077B5;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  background: #ffffff;
+  border:1px solid #C92228;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-simple-round button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  background: #ffffff;
+  border:1px solid #db4437;
+}
+/*.sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-fb-share .sharing_plus_counter{
+
+}*/
+
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-fb-share .sharing_plus_counter{
+  background: #ffffff;
+  border-color: #43609c;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-twt-share .sharing_plus_counter{
+  background: #ffffff;
+  border-color: #1da1f2;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-whatsapp-share .sharing_plus_counter{
+  background: #ffffff;
+  border-color: #34AF23;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-viber-share .sharing_plus_counter{
+  background: #ffffff;
+  border-color: #59267c;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-reddit-share .sharing_plus_counter{
+  background: #ffffff;
+  border-color: #ff4500;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-linkedin-share .sharing_plus_counter{
+  background: #ffffff;
+  border-color: #0077B5;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-pinterest-share .sharing_plus_counter{
+  background: #ffffff;
+  border-color: #C92228;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-flat-button-border button.sharing-plus-social-gplus-share .sharing_plus_counter{
+  background: #ffffff;
+  border-color: #db4437;
+}
+div[class*="sharing-plus-buttons-float"]:not(.sharing-plus-social-simple-icons) button .sharing_plus_counter,div[class*="sharing-plus-buttons-float"].sharing_plus_buttons.sharing-plus-social-sm-round:not(.sharing-plus-social-simple-icons) .sharing_plus_counter{
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  top: -10px;
+  border:1px solid #fff;
+  border-radius: 0;
+  font-size: 8px;
+  line-height: 14px;
+}
+.sharing_plus_total_counter{
+  margin: 0 5px;
+}
+
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-round-txt button .sharing_plus_counter{
+  border-radius: 50%;
+  height: 22px;
+  min-width: 22px;
+  line-height: 20px;
+  top: -8px;
+  left: -8px;
+  color: #fff;
+}
+div.sharing_plus_buttons.sharing-plus-buttons-float-left-center:not(.sharing-plus-social-simple-icons)  button .sharing_plus_counter{
+  right: -10px;
+  font-size: 10px;
+  left: auto;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-flat-button-border.sharing_plus_counter-activate .sharing_plus_counter{
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  top: -10px;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-round.sharing_plus_counter-activate .sharing_plus_counter{
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  top: -10px;
+  border-radius: 0;
+}
+/*=======================================================
+=            Code for floating share buttons            =
+=======================================================*/
+div[class*="sharing-plus-buttons-float"]:not(.sharing-plus-social-simple-icons)  button{
+  height: 36px;
+  width: 36px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+div[class*="sharing-plus-buttons-float"]:not(.sharing-plus-social-simple-icons)  button span.simplesocialtxt{
+  display: none;
+}
+div[class*="sharing-plus-buttons-float"]:not(.sharing-plus-social-simple-icons)  button .sharing_plus_counter{
+  position: absolute;
+  color: #fff;
+  line-height: 15px;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons:not(.sharing-plus-social-simple-icons)  button{
+  padding-left: 34px;
+  padding-right: 0 !important;
+  margin: 10px 0;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-round-txt:not(.sharing-plus-social-simple-icons)  button{
+  padding-left: 34px;
+  padding-right: 0;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-round-icon:not(.sharing-plus-social-simple-icons)  button{
+  padding-left: 32px;
+  padding-right: 0;
+}
+.sharing_plus_buttons.sharing-plus-social-round-txt button:after{
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-fade-in{
+  opacity: 0;
+  -webkit-animation-name: sharing_plus_fade; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: sharing_plus_fade;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+      animation-fill-mode: forwards;
+}
+.sharing-plus-fb-like{
+  height: 38px;
+  line-height: 38px;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+.sharing-plus-fb-like span{
+  vertical-align: middle !important;
+}
+.sharing-plus-fb-like iframe{
+  visibility: inherit !important;
+}
+div[class*="sharing-plus-buttons-float"].sharing_plus_buttons .sharing-plus-fb-like{
+  margin: 5px 0;
+  height: auto;
+  line-height: 1;
+}
+div[class*="sharing-plus-buttons-float-right"].sharing_plus_buttons .sharing-plus-fb-like{
+  float: right;
+}
+div[class*="sharing-plus-buttons-float-left"].sharing-plus-social-simple-icons .sharing_plus_total_counter{
+  display: block;
+  text-align: left;
+}
+div[class*="sharing-plus-buttons-float-right"].sharing-plus-social-simple-icons .sharing_plus_total_counter{
+  display: block;
+  text-align: right;
+}
+@-webkit-keyframes sharing_plus_fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes sharing_plus_fade {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-nospace button{
+  margin: 0;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-slide-left-in button,
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-slide-left-in .sharing_plus_total_counter{
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  -webkit-animation-name: sharing_plus_slide_left_in; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: sharing_plus_slide_left_in;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+      animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes sharing_plus_slide_left_in {
+    from {-webkit-transform: translateX(-100%);transform: translateX(-100%)}
+    to {-webkit-transform: translateX(0%);transform: translateX(0%)}
+}
+
+/* Standard syntax */
+@keyframes sharing_plus_slide_left_in {
+    from {-webkit-transform: translateX(-100%);transform: translateX(-100%)}
+    to {-webkit-transform: translateX(0%);transform: translateX(0%)}
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-slide-right-in button,
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-slide-right-in .sharing_plus_total_counter{
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  -webkit-animation-name: sharing_plus_slide_right_in; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: sharing_plus_slide_right_in;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+      animation-fill-mode: forwards;
+}
+@-webkit-keyframes sharing_plus_slide_right_in {
+    from {-webkit-transform: translateX(100%);transform: translateX(100%)}
+    to {-webkit-transform: translateX(0%);transform: translateX(0%)}
+}
+
+/* Standard syntax */
+@keyframes sharing_plus_slide_right_in {
+    from {-webkit-transform: translateX(100%);transform: translateX(100%)}
+    to {-webkit-transform: translateX(0%);transform: translateX(0%)}
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-slide-bottom-in{
+  -webkit-transform: translateY(-45%);
+  transform: translateY(-45%);
+  -webkit-animation-name: sharing_plus_slide_top_in; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: sharing_plus_slide_top_in;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+      animation-fill-mode: forwards;
+}
+@-webkit-keyframes sharing_plus_slide_top_in {
+    from {-webkit-transform: translateY(-45%);transform: translateY(-45%)}
+    to {-webkit-transform: translateY(-50%);transform: translateY(-50%)}
+}
+
+/* Standard syntax */
+@keyframes sharing_plus_slide_top_in {
+    from {-webkit-transform: translateY(-45%);transform: translateY(-45%)}
+    to {-webkit-transform: translateY(-50%);transform: translateY(-50%)}
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-slide-top-in{
+  -webkit-transform: translateY(-60%);
+  transform: translateY(-60%);
+  -webkit-animation-name: sharing_plus_slide_bottom_in; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: sharing_plus_slide_bottom_in;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+      animation-fill-mode: forwards;
+}
+@-webkit-keyframes sharing_plus_slide_bottom_in {
+    from {-webkit-transform: translateY(-60%);transform: translateY(-60%); opacity: 0;}
+    to {-webkit-transform: translateY(-50%);transform: translateY(-50%); opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes sharing_plus_slide_bottom_in {
+    from {-webkit-transform: translateY(-60%);transform: translateY(-60%); opacity: 0;}
+    to {-webkit-transform: translateY(-50%);transform: translateY(-50%); opacity: 1;}
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-slide-top-in{
+  opacity: 0;
+  -webkit-animation-name: sharing_plus_slide_bottom_in; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: sharing_plus_slide_bottom_in;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+      animation-fill-mode: forwards;
+}
+@-webkit-keyframes sharing_plus_slide_bottom_in {
+    from {-webkit-transform: translateY(-60%);transform: translateY(-60%);opacity: 0;}
+    to {-webkit-transform: translateY(-50%);transform: translateY(-50%);opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes sharing_plus_slide_bottom_in {
+    from {-webkit-transform: translateY(-60%);transform: translateY(-60%);opacity: 0;}
+    to {-webkit-transform: translateY(-50%);transform: translateY(-50%);opacity: 1;}
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-buttons-slide-fade-in{
+  opacity: 0;
+  -webkit-animation-name: sharing_plus_slide_fade_in; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  animation-name: sharing_plus_slide_fade_in;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+      animation-fill-mode: forwards;
+}
+@-webkit-keyframes sharing_plus_slide_fade_in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes sharing_plus_slide_fade_in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(2){
+-webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(3){
+-webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(4){
+-webkit-animation-delay: 0.6s;
+        animation-delay: 0.6s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(5){
+-webkit-animation-delay: 0.8s;
+        animation-delay: 0.8s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(6){
+-webkit-animation-delay: 1s;
+        animation-delay: 1s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(7){
+-webkit-animation-delay: 1.2s;
+        animation-delay: 1.2s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(8){
+-webkit-animation-delay: 1.4s;
+        animation-delay: 1.4s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(9){
+-webkit-animation-delay: 1.6s;
+        animation-delay: 1.6s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(10){
+-webkit-animation-delay: 1.8s;
+        animation-delay: 1.8s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(11){
+-webkit-animation-delay: 2s;
+        animation-delay: 2s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(12){
+-webkit-animation-delay: 2.2s;
+        animation-delay: 2.2s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(13){
+-webkit-animation-delay: 2.4s;
+        animation-delay: 2.4s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(14){
+-webkit-animation-delay: 2.6s;
+        animation-delay: 2.6s;
+}
+div[class*="sharing-plus-buttons-float"] button:nth-child(15){
+-webkit-animation-delay: 2.8s;
+        animation-delay: 2.8s;
+}
+div[class*="sharing-plus-buttons-float"]{
+  position: fixed;
+  width: 36px;
+  z-index: 1000;
+  text-align: center;
+  z-index: 9999;
+}
+
+div.sharing_plus_buttons.sharing-plus-buttons-align-centered{
+  text-align: center;
+}
+div.sharing_plus_buttons.sharing-plus-buttons-align-left{
+  text-align: left;
+}
+div.sharing_plus_buttons.sharing-plus-buttons-align-right{
+  text-align: right;
+}
+div.sharing_plus_buttons.sharing-plus-buttons-float-left-top{
+  top: 100px;
+  left: 0;
+  margin: 0;
+}
+div.sharing_plus_buttons.sharing-plus-buttons-float-right-top{
+  top: 100px;
+  right: 0;
+  margin: 0;
+}
+div.sharing_plus_buttons.sharing-plus-buttons-float-left-center{
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+}
+div.sharing_plus_buttons.sharing-plus-buttons-float-right-center{
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: 0;
+  text-align: right;
+}
+
+div.sharing-plus-buttons-float-left-post{
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: -52px;
+  -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+}
+.sharing-plus-buttons-float-left-post.float-in{
+  opacity: 1;
+}
+div.sharing-plus-buttons-float-right-post{
+  position: fixed;
+  top: 70px;
+  opacity: 0;
+  margin-right: -70px;
+  -webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+}
+.sharing-plus-buttons-float-right-post.float-in{
+  opacity: 1;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round.sharing-plus-buttons-float-left-post.sharing_plus_counter-activate .sharing_plus_counter{
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  top: -10px;
+  border: 1px solid #fff;
+  border-radius: 0;
+  font-size: 8px;
+  line-height: 14px;
+  right: -10px;
+  color: #000;
+}
+.sharing_plus_buttons.sharing-plus-social-simple-round.sharing-plus-buttons-float-right-post.sharing_plus_counter-activate .sharing_plus_counter{
+  width: 15px;
+  height: 15px;
+  color: #fff;
+  top: -10px;
+  border: 1px solid #fff;
+  border-radius: 0;
+  font-size: 8px;
+  line-height: 14px;
+  right: -10px;
+  color: #000;
+}
+div[class*="sharing-plus-buttons-float-left-post"] button .sharing_plus_counter{
+  top: -8px;
+  right: -8px;
+}
+.float-lefted-sidebar{
+  left: 0;
+}
+/*=====  End of Code for floating share buttons  ======*/
+.sharing-plus-buttons-float-left-post.float-touched-sidebar{
+  left: 52px !important;
+}
+.sharing-plus-buttons-float-right-post.float-touched-sidebar{
+  right: 52px !important;
+}
+div[class*="sharing-plus-buttons-float"].sharing-plus-social-simple-round  button[class*="-share"]:not(:hover):before{
+  width: 0;
+}
+.sharing_plus_inline-share_heading{
+  font-weight: 400;
+  font-size: 24px;
+  padding: 0 0 10px;
+  margin: 0;
+  display: block;
+}
+.sharing_plus_inline-share_heading.left{
+  text-align: left
+}
+.sharing_plus_inline-share_heading.centered{
+  text-align: center;
+}
+.sharing_plus_inline-share_heading.right{
+  text-align: right;
+}
+@media screen and (max-width: 768px) {
+    .sharing-plus-buttons-mobile-hidden{
+      display: none !important;
+    }
+}
+/*========================================
+=            Code For widget             =
+========================================*/
+
+.sharing_plus_followers a.sharing_plus_button{
+  border:0;
+  cursor: pointer;
+  display: inline-block;
+  margin: 2.5px 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-weight: normal;
+  text-transform: capitalize !important;
+  width: 100%;
+  text-decoration: none !important;
+}
+.sharing_plus_followers a.sharing_plus_button:focus, .sharing_plus_followers a.sharing_plus_button:hover{
+  outline: none;
+  text-decoration: none !important;
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-fb-follow:after{
+  content: "\e900";
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-twt-follow:after{
+  content: "\e904";
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-gplus-follow:after{
+  content: "\e901";
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-whatsapp-follow:after{
+  content: "\e906";
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-viber-follow:after{
+  content: "\e666";
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-reddit-follow:after{
+  content: "\e903";
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-linkedin-follow:after{
+  content: "\e907";
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-pinterest-follow:after{
+  content: "\e902";
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-yt-follow:after{
+  content: "\e909";
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-instagram-follow:after{
+  content: "\e90a";
+}
+.sharing_plus_followers a.sharing_plus_button:after {
+  font-family: 'sharing_plus_icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  left: 0;
+  position: absolute;
+  font-size: 17px;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 3px;
+}
+.sharing_plus_followers a.sharing_plus_button.sharing-plus-social-viber-follow:after{
+  content: "\e905";
+  font-family: 'sharing_plus_icon';
+}
+/*========================================
+=            Code For Style 2            =
+========================================*/
+
+
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button {
+  height: 38px;
+  line-height: 30px;
+  padding: 4px 30px 4px 48px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  position: relative;
+  color: #fff;
+  border-radius: 3px;
+  box-shadow: none;
+  max-width: 100%;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button:hover{
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button:before {
+  content: '';
+  left: 0;
+  position: absolute;
+  font-size: 17px;
+  top: 0;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 3px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button span{
+  position: relative;
+  z-index: 1;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button:hover:before{
+  width: 100%;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-fb-follow{
+  background: #43609c;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-twt-follow{
+  background: #1da1f2;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-gplus-follow{
+  background: #db4437;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-whatsapp-follow{
+  background: #34AF23;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-viber-follow{
+  background: #59267c;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-reddit-follow{
+  background: #ff4500;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-linkedin-follow{
+  background: #0077B5;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-pinterest-follow{
+  background: #C92228;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-yt-follow{
+  background: #bb0000;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-instagram-follow{
+  background: #3897f0;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-yt-follow:after, .sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-yt-follow:before {
+  background: #790606;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-fb-follow:after, .sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-fb-follow:before {
+  background: #354e83;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-twt-follow:after, .sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-twt-follow:before {
+  background: #1889cf;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-gplus-follow:after, .sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-gplus-follow:before {
+  background: #bb372b;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-viber-follow:after, .sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-viber-follow:before {
+  background: #3e115d;
+}
+
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-whatsapp-follow:after, .sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-whatsapp-follow:before {
+  background: #176e0b;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-reddit-follow:after, .sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-reddit-follow:before {
+  background: #ce3b04;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-linkedin-follow:after, .sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-linkedin-follow:before {
+  background: #044568;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-pinterest-follow:after, .sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-pinterest-follow:before {
+  background: #af040a;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-instagram-follow:after,
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button.sharing-plus-social-instagram-follow:before {
+  background: #1d75c7;
+}
+.sharing_plus_followers.sharing-plus-social-simple-round a.sharing_plus_button span.widget_counter{
+  position: absolute;
+  right: 5px;
+}
+
+/*=====  End of Code For Style 2  ======*/
+/*========================================
+=            End  Code For widget         =
+========================================*/
+
+.widget_sharing_plus_followers_widget{
+  .sharing_plus_follower_list{
+    li {
+      padding: 5px 0;
+      margin: 0;
+    }
+  }
+}

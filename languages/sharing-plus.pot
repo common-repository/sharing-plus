@@ -1,0 +1,653 @@
+# Copyright (C) 2019 ThemeCentury
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sharing Plus 1.0.3\n"
+"Report-Msgid-Bugs-To: themecentury@gmail.com\n"
+"POT-Creation-Date: 2019-02-01 12:08:51+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <themecentury@gmail.com>\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: admin/tcy-admin-hooks.php:20 admin/tcy-strucutre.php:881
+msgid "Toggle panel: SHARING_PLUS Settings"
+msgstr ""
+
+#: admin/tcy-admin-hooks.php:21
+msgid "Help us by sharing this plugin."
+msgstr ""
+
+#: admin/tcy-admin-hooks.php:25
+msgid "Share on Twitter"
+msgstr ""
+
+#: admin/tcy-admin-hooks.php:28
+msgid "Share on Facebook"
+msgstr ""
+
+#: admin/tcy-admin-hooks.php:32
+msgid "Rate on WordPress.org"
+msgstr ""
+
+#: admin/tcy-admin.php:44
+msgid "Settings"
+msgstr ""
+
+#: admin/tcy-admin.php:89
+msgid "Sharing Plus Settings"
+msgstr ""
+
+#: admin/tcy-admin.php:111
+msgid "Hide Sharing Plus"
+msgstr ""
+
+#: admin/tcy-admin.php:274
+msgid "Leave A Review?"
+msgstr ""
+
+#: admin/tcy-admin.php:275
+msgid ""
+"We hope you've enjoyed using Sharing Plus! Would you consider leaving us a "
+"review on WordPress.org?"
+msgstr ""
+
+#: admin/tcy-admin.php:276
+msgid "Sure! I'd love to!"
+msgstr ""
+
+#: admin/tcy-admin.php:277
+msgid "I've already left a review"
+msgstr ""
+
+#: admin/tcy-admin.php:278
+msgid "Maybe Later"
+msgstr ""
+
+#: admin/tcy-admin.php:279
+msgid "Never show again"
+msgstr ""
+
+#: admin/tcy-import-export.php:11
+msgid "Import/Export Simple Social Share Buttons Settings"
+msgstr ""
+
+#: admin/tcy-import-export.php:12
+msgid "Import/Export your Social share button Settings for/from other sites."
+msgstr ""
+
+#: admin/tcy-import-export.php:17
+msgid "Import Settings:"
+msgstr ""
+
+#: admin/tcy-import-export.php:21
+msgid "Import"
+msgstr ""
+
+#: admin/tcy-import-export.php:25
+msgid "Sharing Plus Share Settings Imported Successfully."
+msgstr ""
+
+#: admin/tcy-import-export.php:27
+msgid "Select a file and click on Import to start processing."
+msgstr ""
+
+#: admin/tcy-import-export.php:32
+msgid "Export Settings:"
+msgstr ""
+
+#: admin/tcy-import-export.php:35
+msgid "Export"
+msgstr ""
+
+#: admin/tcy-import-export.php:39
+msgid "Simple Social Button Settings Exported Successfully!"
+msgstr ""
+
+#: admin/tcy-import-export.php:40
+msgid "Export Simple Social Button Settings."
+msgstr ""
+
+#: admin/tcy-strucutre.php:303
+msgid "Post type settings"
+msgstr ""
+
+#: admin/tcy-strucutre.php:373
+msgid "Drag & Drop to activate and order your share buttons:"
+msgstr ""
+
+#: admin/tcy-strucutre.php:375
+msgid "Active social sharing button:"
+msgstr ""
+
+#: admin/tcy-strucutre.php:394
+msgid "Available social sharing buttons."
+msgstr ""
+
+#: admin/tcy-strucutre.php:609
+msgid "Choose File"
+msgstr ""
+
+#: admin/tcy-strucutre.php:750
+msgid "General Settings"
+msgstr ""
+
+#: admin/tcy-strucutre.php:755
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/tcy-strucutre.php:767
+msgid "Error Tab"
+msgstr ""
+
+#: admin/tcy-strucutre.php:837
+msgid ""
+"Sorry you are on wrong tab. Please click here to go %1$s General "
+"Settings%2$s."
+msgstr ""
+
+#: inc/core/tcy-core-functions.php:75
+msgid "Channel"
+msgstr ""
+
+#: inc/core/tcy-core-functions.php:76
+msgid "Username"
+msgstr ""
+
+#: inc/core/tcy-settings.php:32
+msgid "Import and export settings"
+msgstr ""
+
+#: inc/core/tcy-settings.php:32
+msgid "Import / Export"
+msgstr ""
+
+#: inc/core/tcy-settings.php:42
+msgid "Choose Sharing Icons"
+msgstr ""
+
+#: inc/core/tcy-settings.php:47
+msgid "Sharing Icon Themes"
+msgstr ""
+
+#: inc/core/tcy-settings.php:52
+msgid "Sharing Icon Postions"
+msgstr ""
+
+#: inc/core/tcy-settings.php:57
+msgid "Sharing Icons Sidebar"
+msgstr ""
+
+#: inc/core/tcy-settings.php:62
+msgid "Sharing Icon Inline"
+msgstr ""
+
+#: inc/core/tcy-settings.php:68
+msgid "Sharing Icon Advanced"
+msgstr ""
+
+#: inc/core/tcy-settings.php:118
+msgid "Sidebar Orientation"
+msgstr ""
+
+#: inc/core/tcy-settings.php:119 inc/core/tcy-settings.php:192
+msgid "<h4>Display Settings</h4>"
+msgstr ""
+
+#: inc/core/tcy-settings.php:130
+msgid "Intro Animation"
+msgstr ""
+
+#: inc/core/tcy-settings.php:145 inc/core/tcy-settings.php:231
+msgid "Display Share Counts"
+msgstr ""
+
+#: inc/core/tcy-settings.php:151 inc/core/tcy-settings.php:237
+msgid "Display Total Shares"
+msgstr ""
+
+#: inc/core/tcy-settings.php:157 inc/core/tcy-settings.php:243
+msgid "Add Icon Spacing"
+msgstr ""
+
+#: inc/core/tcy-settings.php:170 inc/core/tcy-settings.php:256
+msgid "Hide On Mobile Devices"
+msgstr ""
+
+#: inc/core/tcy-settings.php:176 inc/core/tcy-settings.php:293
+msgid "Post type Settings"
+msgstr ""
+
+#: inc/core/tcy-settings.php:177 inc/core/tcy-settings.php:294
+#: inc/core/tcy-settings.php:331
+msgid "Multi checkbox description"
+msgstr ""
+
+#: inc/core/tcy-settings.php:191
+msgid "Icon Position"
+msgstr ""
+
+#: inc/core/tcy-settings.php:204
+msgid "Icon Alignment"
+msgstr ""
+
+#: inc/core/tcy-settings.php:216
+msgid "Animation"
+msgstr ""
+
+#: inc/core/tcy-settings.php:262
+msgid "Show at Category pages"
+msgstr ""
+
+#: inc/core/tcy-settings.php:268
+msgid "Show at Archive pages"
+msgstr ""
+
+#: inc/core/tcy-settings.php:275
+msgid "Show at Tag pages"
+msgstr ""
+
+#: inc/core/tcy-settings.php:281
+msgid "Show at Search pages"
+msgstr ""
+
+#: inc/core/tcy-settings.php:287
+msgid "Share Title"
+msgstr ""
+
+#: inc/core/tcy-settings.php:314
+msgid "Icon Style"
+msgstr ""
+
+#: inc/core/tcy-settings.php:330
+msgid "Postions"
+msgstr ""
+
+#: inc/core/tcy-settings.php:344
+msgid "Twitter @username:"
+msgstr ""
+
+#: inc/core/tcy-settings.php:350
+msgid "Http/Https counts resolve:"
+msgstr ""
+
+#: inc/core/tcy-settings.php:452
+msgid "Sorry your please upload json file"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:84
+msgid "Quick feedback about Sharing Plus"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:87
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:94
+msgid "I only needed the plugin for a short period"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:103
+msgid "I found a better plugin"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:106
+msgid "Kindly tell us the name of plugin"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:113
+msgid "The plugin broke my site"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:122
+msgid "The plugin suddenly stopped working"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:131
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:140
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:149
+msgid "Other"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:152
+msgid "Kindly tell us the reason so we can improve."
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:157
+msgid "Anonymous feedback"
+msgstr ""
+
+#: inc/tcy-deactivate-form.php:162
+msgid "Cancel"
+msgstr ""
+
+#: inc/widgets/fields/tcy-accordion-field.php:38
+msgid "Sorry no field are added on accordion."
+msgstr ""
+
+#: inc/widgets/fields/tcy-accordion-field.php:49
+msgid "There is no accordion on this accordion group"
+msgstr ""
+
+#: inc/widgets/fields/tcy-icon-field.php:9
+msgid "Add Icon"
+msgstr ""
+
+#: inc/widgets/fields/tcy-icon-field.php:9
+msgid "Edit Icon"
+msgstr ""
+
+#: inc/widgets/fields/tcy-icon-field.php:13
+msgid "Search Icon"
+msgstr ""
+
+#: inc/widgets/fields/tcy-master-widget.php:22
+#: inc/widgets/tcy-follower-widget.php:56
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/fields/tcy-master-widget.php:164
+msgid "Blank widget created"
+msgstr ""
+
+#: inc/widgets/fields/tcy-pagelist-field.php:18
+msgid "Select Page"
+msgstr ""
+
+#: inc/widgets/fields/tcy-repeater-field.php:2
+msgid "Row"
+msgstr ""
+
+#: inc/widgets/fields/tcy-repeater-field.php:3
+msgid "Add row"
+msgstr ""
+
+#: inc/widgets/fields/tcy-repeater-field.php:58
+#: inc/widgets/fields/tcy-repeater-field.php:133
+msgid "Image preview"
+msgstr ""
+
+#: inc/widgets/fields/tcy-repeater-field.php:62
+#: inc/widgets/fields/tcy-repeater-field.php:137
+msgid "Upload Image"
+msgstr ""
+
+#: inc/widgets/fields/tcy-repeater-field.php:62
+#: inc/widgets/fields/tcy-repeater-field.php:137
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/fields/tcy-repeater-field.php:63
+#: inc/widgets/fields/tcy-repeater-field.php:138
+msgid "Remove Image"
+msgstr ""
+
+#: inc/widgets/fields/tcy-repeater-field.php:83
+#: inc/widgets/fields/tcy-repeater-field.php:156
+#: inc/widgets/fields/tcy-upload-field.php:28
+#: inc/widgets/fields/tcy-upload-field.php:40
+msgid "Remove"
+msgstr ""
+
+#: inc/widgets/fields/tcy-repeater-field.php:84
+#: inc/widgets/fields/tcy-repeater-field.php:157
+msgid "Close"
+msgstr ""
+
+#: inc/widgets/fields/tcy-upload-field.php:19
+msgid "No file chosen"
+msgstr ""
+
+#: inc/widgets/fields/tcy-upload-field.php:24
+msgid "Upload"
+msgstr ""
+
+#: inc/widgets/fields/tcy-upload-field.php:33
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/widgets/fields/tcy-upload-field.php:44
+msgid "Upload image"
+msgstr ""
+
+#: inc/widgets/fields/tcy-upload-field.php:55
+msgid "View File"
+msgstr ""
+
+#: inc/widgets/fields/tcy-widget-fields.php:64
+msgid "Widget Layout"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:46
+#: inc/widgets/tcy-follower-widget.php:51
+msgid "General"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:66
+msgid "Facebook Settings"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:71
+msgid "Enable Facebook"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:78
+msgid "Facebook button text"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:79
+msgid "Follow us on Facebook"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:85
+msgid "Facebook user id"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:92
+msgid "Display facebook like counter"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:115
+msgid "Facebook app id"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:122
+msgid "Facebook security key"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:129
+msgid "Facebook access token"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:132
+msgid ""
+"You can get <a href=\"javascript:void(0)\" "
+"class=\"sharing-plus-fb-token\">get  access token</a> by clicking <a "
+"href=\"javascript:void(0)\" class=\"sharing-plus-fb-token\">here</a>"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:137
+msgid "Twitter Settings"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:142
+msgid "Enable Twitter"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:149
+msgid "Twitter button text"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:150
+msgid "Follow us on twitter"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:156
+msgid "Twitter handle"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:163
+msgid "Display twitter follower counter"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:184
+msgid "Consumer Key (Api key)"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:191
+msgid "Consumer Secrect (Api Secret)"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:198
+msgid "Google Plus Settings"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:203
+msgid "Enable Gogle Plus"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:210
+msgid "Google+ Button Text: "
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:211
+#: inc/widgets/tcy-follower-widget.php:244
+#: inc/widgets/tcy-follower-widget.php:286
+#: inc/widgets/tcy-follower-widget.php:340
+msgid "Follow us on Google+"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:217
+#: inc/widgets/tcy-follower-widget.php:250
+msgid "Google+ User ID"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:224
+msgid "Display google plus follower counter"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:231
+msgid "Youtube Settings"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:236
+msgid "Enable youtube"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:243
+msgid "Youtube button text: "
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:258
+msgid "Youtube channel or ID"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:265
+msgid "Display youtube subscribe counter"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:273
+msgid "Pinterest Settings"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:278
+msgid "Enable pinterest"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:285
+msgid "Pinterest button text"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:292
+msgid "Pinterest user id"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:299
+msgid "Display pinterest follower counter"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:319
+msgid "Pinterest access token"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:327
+msgid "Instagram Settings"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:332
+msgid "Enable instagram"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:339
+msgid "Instagram button text: "
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:346
+msgid "Instagram User Name"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:353
+msgid "Display instagram follower counter"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:361
+msgid "WhatsApp Settings"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:366
+msgid "Enable whatsapp"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:373
+msgid "WhatsApp button text"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:374
+msgid "Follow us on Whatsapp"
+msgstr ""
+
+#: inc/widgets/tcy-follower-widget.php:380
+msgid "Contact us on WhatsApp"
+msgstr ""
+
+#: sharing-plus.php:497
+msgid "Vote!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Sharing Plus"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/sharing-plus/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Sharing Plus adds an advanced set of social media sharing buttons to your "
+"WordPress sites, such as: Google +1, Facebook, WhatsApp, Viber, Twitter, "
+"Reddit, LinkedIn and Pinterest. This makes it the most Flexible Social "
+"Sharing Plugin ever for Everyone."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeCentury"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themecentury.com"
+msgstr ""
+
+#: sharing-plus.php:1785
+msgctxt "Word count type. Do not translate!"
+msgid "words"
+msgstr ""
